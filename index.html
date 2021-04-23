@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <!-- I added this CSS reset from https://www.contactmonkey.com/blog/outlook-rendering-issues to combat compatibility problems with some versions of Outlook.-->
+    <style>
+
+       /* Remove space around the email design. */
+
+       html,
+
+       body {
+
+           margin: 0 auto !important;
+
+           padding: 0 !important;
+
+           height: 100% !important;
+
+           width: 100% !important;
+
+       }
+
+
+
+       /* Stop Outlook resizing small text. */
+
+       * {
+
+           -ms-text-size-adjust: 100%;
+
+       }
+
+
+
+       /* Stop Outlook from adding extra spacing to tables. */
+
+       table,
+
+       td {
+
+           mso-table-lspace: 0pt !important;
+
+           mso-table-rspace: 0pt !important;
+
+       }
+
+
+
+       /* Use a better rendering method when resizing images in Outlook IE. */
+
+       img {
+
+           -ms-interpolation-mode:bicubic;
+
+       }
+
+
+
+     /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+
+       a {
+
+           text-decoration: none;
+
+       }
+
+    </style>
+</head>
+<body style="margin:0;padding:0;max-width:100%;width:100%">
+    <!--
+        Media query in body just in case email client eliminates the head tag
+    -->
+    <style>
+        
+        @media only screen and (min-width: 600px) {
+            .hide {
+                display:none;
+            }
+           
+            .desktop_img {
+                display:block;
+                float:right;
+            }
+            .mobile_img{
+                display:none;
+            }
+            
+        }
+        @media only screen and (max-width: 599px) {
+            
+            .show{
+                display:none;
+            }
+            
+            .mobile_img{
+                display:block
+            }
+            .desktop_img {
+                display:none;
+            }
+        }
+    </style>
+    <table style="max-width: 100%;margin: 0px 0px 0px 0px;padding: 0;border-spacing: 0px;">
+        <tr style="width:100%;">
+            <td style="padding: 0;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                <img style="width:100%" src="images/banner.png" alt="7th Annual Meltoween Party">
+                <h1 style="display:none">7th Annual Meltoween Party</h1>
+            </td>
+    
+        </tr>
+        <tr style="width:100%" class="hide">
+            <td style="padding: 40px 40px 40px 40px;background-color: #8eb832;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHAT!</h2>
+            <p style="font-size: 22pt;font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">7th Annual Meltoween Party!</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHEN:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Thursday, October 29th</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">TIME:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">5pm (till whenever)</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHERE:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">meltEast</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">FOOD:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Spinato's Pizza &amp; Salad &amp; Pumpkin Foods?</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHO:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">meltfolks + significant other +/- kids</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">ATTIRE:</h2>
+            <p style="margin-bottom: 20px;font-family: arial,sans-serif;margin: 0;padding: 0;color: #ffffff;">Costumes of course (preferred, but not required)</p>
+            
+            </td>
+        </tr>
+        <tr style="width:100%" class="show">
+            <td style="padding: 40px 40px 40px 40px;background-color: #8eb832;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHAT!</h2>
+                <p style="font-size: 22pt;font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 0px;color: #ffffff;">7th Annual Meltoween Party!</p>
+            </td>
+        </tr>
+        <tr style="width:100%;border-spacing:0px" class="show">
+            <td style="border-spacing:0px;padding:0px 0px 0px 0px;">
+                <table style="width: 100%;margin: 0 0 0 0;padding: 0 0 0 0;background-color: #8eb832;max-width: 100%;border-spacing: 0px;" >
+                    <tr style="margin:0 0 0 0;padding:0 0 0 0;border-width:0px;border-spacing:0">
+            <td style="padding:0px 40px 40px 40px;width:40%">
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHEN:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Thursday, October 29th</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">TIME:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">5pm (till whenever)</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHERE:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">meltEast</p>
+            </td>
+            <td style="width:60%;padding:0px 40px 40px 40px;">
+            <h2 style="font-family: arial,sans-serif;padding: 0 0 0 0;margin: -20 0 0 0;color: #462856;">FOOD:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Spinato's Pizza &amp; Salad &amp; Pumpkin Foods?</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHO:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">meltfolks + significant other +/- kids</p>
+            <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">ATTIRE:</h2>
+            <p style="font-family: arial,sans-serif;margin: 0;padding: 0;color: #ffffff;">Costumes of course (preferred, but not required)</p>
+            </td>
+                        </tr>
+            </table>
+            </td>
+        </tr>
+        
+        <tr style="width:100%">
+            <td style="padding: 40px 40px 40px 40px;background-color: #373737;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
+                <p style="margin: 0;font-family: arial,sans-serif;padding: 0;color: #ffffff;"><span style="color:#ff821d; font-size:30pt; font-weight:550;">Plan Ahead! </span><span style="color:#ff821d">this event starts at 5pm.</span> If you need time to get in costume or
+                pick up your family or both etc. then you should consider flexing for half of the day.
+                First check with your supervisor for approval.</p>
+            
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 40px 40px 40px 40px;background-color: #ff821d;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                <img src="images/costumes.png" class="desktop_img" style="margin-bottom:-40px;margin-right:-40px;">
+                <h3 class="desktop" style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Costume Contest</h3>
+                <p class="desktop" style="font-family: arial,sans-serif;margin: 0;padding: 0;color: #ffffff;">Duhh, of course Wear
+                it all day if you wanna.
+                Perhaps you will be the winner of the contest?
+                (must be present at party to be voted on)
+                We'll hold a kid contest too!</p>
+                <img src="images/costumes.png" class="mobile_img" style="margin:0 auto;margin-bottom:-40px;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 40px 40px 40px 40px;background-color: #e67112;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                <img src="images/cupcake.png" class="desktop_img" style="margin:0 auto;margin-bottom:-20px">
+                <h3 style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Pumpkin Flavored Bake Off</h3>
+                <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Only requirement is that pumpkin is used. So bring a dessert or savory dish
+                to be enjoyed (then judged).There will be several categories you could
+                win...ie: best dessert, best savory dish, best presentation, most
+                unique...perhaps a few others. So be creative! (We'll make sure there is room
+                in the fridges to store your items till party time...so MPR, no nibbling!)</p>
+                <img src="images/cupcake.png" class="mobile_img" style="margin:0 auto;margin-bottom:-20px">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 40px 40px 0px 40px;background-color: #cd6511;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                <img src="images/rockstar-kid.png" class="desktop_img" style="">
+                <h3 style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Fun for the whole family</h3>
+                <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Coloring Contest, Pumpkin Bowling, Spider Hide and Seek,
+                Donut/Scooter Races, &amp; More...<br><br>
+                Don't forget there's melt Corn Hole &amp; the fun Photo Booth too.</p>
+                <img src="images/rockstar-kid.png" class="mobile_img" style="margin:0 auto;">
+            </td>
+        </tr>
+        <tr style="padding:0px 0px 0px 0px;">
+            <td style="padding: 0px 0px 0px 0px;background-color: #000000;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
+                <h3 style="font-size: 14pt;position: absolute;left: 40px;padding-top: 40px;font-family: arial,sans-serif;color: #ffffff;margin:0 0 0 0;">The Featured Movie</h3>
+                
+                <p style="position: absolute;left: 40px;padding-top: 80px;font-family: arial,sans-serif;color: #ffffff;margin:0 0 0 0">Nightmare Before <br class="hide">Christmas</p>
+                <img src="images/movie-mobile.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="hide">
+                <img src="images/movie.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="show">
+            </td>
+        </tr>
+        <tr style="padding:0 0 0 0;">
+            <td style="width: 100%;padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
+                <table style="width: 100%;white-space: nowrap;margin: 0 0 0 0;padding: 0 0 0 0;background-color: #e67112;max-width: 100%;border-spacing: 0px;">
+                    <tr style="width:100%;">
+                        <td style="padding: 0 0 0 0;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
+                            <img src="images/left.png" style="width:100%;">
+                        </td>    
+                        <td style="padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
+                            <a href=""><img src="images/rsvp.png" style="width:100%"></a>
+                        </td>    
+                        <td style="padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">    
+                            <img src="images/right.png" style="width:100%">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            
+            
+        </tr>
+        <tr style="width:100%">
+            <td style="padding: 0 0 0 0;margin: 0 0 0 0;max-width: 100%;border-spacing: 0px;">
+                <img src="images/footer.png" style="width:100%">
+                
+            </td>
+        </tr>
+    </table>
+</body></html>
