@@ -1,5 +1,7 @@
 <html lang="en">
 <head>
+    
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <!-- I added this CSS reset from https://www.contactmonkey.com/blog/outlook-rendering-issues to combat compatibility problems with some versions of Outlook.-->
     <style>
 
@@ -71,6 +73,8 @@
     -->
     <style>
         
+        /* Desktop-only styles*/
+        
         @media only screen and (min-width: 600px) {
             .hide {
                 display:none;
@@ -85,6 +89,9 @@
             }
             
         }
+        
+        /* Mobile-only styles*/
+        
         @media only screen and (max-width: 599px) {
             
             .show{
@@ -99,14 +106,23 @@
             }
         }
     </style>
+    
+    <!--
+        Top graphic
+    -->
     <table style="max-width: 100%;margin: 0px 0px 0px 0px;padding: 0;border-spacing: 0px;">
         <tr style="width:100%;">
             <td style="padding: 0;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
-                <img style="width:100%" src="images/banner.png" alt="7th Annual Meltoween Party">
+                <img style="width:100%" src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/banner.png" alt="7th Annual Meltoween Party">
                 <h1 style="display:none">7th Annual Meltoween Party</h1>
             </td>
     
         </tr>
+        
+        <!--
+            Details
+        -->
+        
         <tr style="width:100%" class="hide">
             <td style="padding: 40px 40px 40px 40px;background-color: #8eb832;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
             <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHAT!</h2>
@@ -126,6 +142,11 @@
             
             </td>
         </tr>
+        
+        <!--
+            Desktop version of details
+        -->
+        
         <tr style="width:100%" class="show">
             <td style="padding: 40px 40px 40px 40px;background-color: #8eb832;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
                 <h2 style="font-family: arial,sans-serif;padding: 0;margin: 0;color: #462856;">WHAT!</h2>
@@ -157,6 +178,10 @@
             </td>
         </tr>
         
+        <!--
+            Plan ahead
+        -->
+        
         <tr style="width:100%">
             <td style="padding: 40px 40px 40px 40px;background-color: #373737;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
                 <p style="margin: 0;font-family: arial,sans-serif;padding: 0;color: #ffffff;"><span style="color:#ff821d; font-size:30pt; font-weight:550;">Plan Ahead! </span><span style="color:#ff821d">this event starts at 5pm.</span> If you need time to get in costume or
@@ -165,61 +190,86 @@
             
             </td>
         </tr>
+        
+        <!--
+            Costume contest
+        -->
+        
         <tr>
             <td style="padding: 40px 40px 40px 40px;background-color: #ff821d;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
-                <img src="images/costumes.png" class="desktop_img" style="margin-bottom:-40px;margin-right:-40px;">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/costumes.png" class="desktop_img" style="margin-bottom:-40px;margin-right:-40px;" alt="Man in police costume chasing person in chicken costume">
                 <h3 class="desktop" style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Costume Contest</h3>
                 <p class="desktop" style="font-family: arial,sans-serif;margin: 0;padding: 0;color: #ffffff;">Duhh, of course Wear
                 it all day if you wanna.
                 Perhaps you will be the winner of the contest?
                 (must be present at party to be voted on)
                 We'll hold a kid contest too!</p>
-                <img src="images/costumes.png" class="mobile_img" style="margin:0 auto;margin-bottom:-40px;">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/costumes.png" class="mobile_img" style="margin:0 auto;margin-bottom:-40px;" alt="Man in police costume chasing person in chicken costume">
             </td>
         </tr>
+        
+        <!--
+            Bake off
+        -->
+        
         <tr>
             <td style="padding: 40px 40px 40px 40px;background-color: #e67112;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
-                <img src="images/cupcake.png" class="desktop_img" style="margin:0 auto;margin-bottom:-20px">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/cupcake.png" class="desktop_img" style="margin:0 auto;margin-bottom:-20px" alt="Cupcake with pumpkin decorations and a toy spider on it">
                 <h3 style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Pumpkin Flavored Bake Off</h3>
                 <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Only requirement is that pumpkin is used. So bring a dessert or savory dish
                 to be enjoyed (then judged).There will be several categories you could
                 win...ie: best dessert, best savory dish, best presentation, most
                 unique...perhaps a few others. So be creative! (We'll make sure there is room
                 in the fridges to store your items till party time...so MPR, no nibbling!)</p>
-                <img src="images/cupcake.png" class="mobile_img" style="margin:0 auto;margin-bottom:-20px">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/cupcake.png" class="mobile_img" style="margin:0 auto;margin-bottom:-20px" alt="Cupcake with pumpkin decorations and a toy spider on it">
             </td>
         </tr>
+        
+        <!--
+            Fun for the whole family
+        -->
+        
         <tr>
             <td style="padding: 40px 40px 0px 40px;background-color: #cd6511;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
-                <img src="images/rockstar-kid.png" class="desktop_img" style="">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/rockstar-kid.png" class="desktop_img" alt="Kid with a guitar dressed like a rock star">
                 <h3 style="font-family: arial,sans-serif;padding: 0 0 20px 0;margin: 0;color: #ffffff;font-size: 20pt;">Fun for the whole family</h3>
                 <p style="font-family: arial,sans-serif;margin: 0;padding: 0;margin-bottom: 20px;color: #ffffff;">Coloring Contest, Pumpkin Bowling, Spider Hide and Seek,
                 Donut/Scooter Races, &amp; More...<br><br>
                 Don't forget there's melt Corn Hole &amp; the fun Photo Booth too.</p>
-                <img src="images/rockstar-kid.png" class="mobile_img" style="margin:0 auto;">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/rockstar-kid.png" class="mobile_img" style="margin:0 auto;" alt="Kid with a guitar dressed like a rock star">
             </td>
         </tr>
+        
+        <!--
+            Featured movie
+        -->
+        
         <tr style="padding:0px 0px 0px 0px;">
             <td style="padding: 0px 0px 0px 0px;background-color: #000000;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
                 <h3 style="font-size: 14pt;position: absolute;left: 40px;padding-top: 40px;font-family: arial,sans-serif;color: #ffffff;margin:0 0 0 0;">The Featured Movie</h3>
                 
                 <p style="position: absolute;left: 40px;padding-top: 80px;font-family: arial,sans-serif;color: #ffffff;margin:0 0 0 0">Nightmare Before <br class="hide">Christmas</p>
-                <img src="images/movie-mobile.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="hide">
-                <img src="images/movie.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="show">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/movie-mobile.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="hide">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/movie.png" alt="Jack Skellington in front of the moon" style="width:100%;" class="show">
             </td>
         </tr>
+        
+        <!--
+            RSVP
+        -->
+        
         <tr style="padding:0 0 0 0;">
             <td style="width: 100%;padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
                 <table style="width: 100%;white-space: nowrap;margin: 0 0 0 0;padding: 0 0 0 0;background-color: #e67112;max-width: 100%;border-spacing: 0px;">
                     <tr style="width:100%;">
                         <td style="padding: 0 0 0 0;max-width: 100%;margin: 10px 0px 0px 0px;border-spacing: 0px;">
-                            <img src="images/left.png" style="width:100%;">
+                            <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/left.png" style="width:100%;" alt="Gravestones and zombie hands in front of orange grass">
                         </td>    
                         <td style="padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">
-                            <a href=""><img src="images/rsvp.png" style="width:100%"></a>
+                            <a href=""><img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/rsvp.png" style="width:100%" alt="Gravestone with meltMedia logo that says RSVP Here If You Dare!"></a>
                         </td>    
                         <td style="padding: 0 0 0 0;max-width: 100%;margin: 0px 0px 0px 0px;border-spacing: 0px;">    
-                            <img src="images/right.png" style="width:100%">
+                            <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/right.png" style="width:100%" alt="Gravestones, zombie hands and a perched raven in front of orange grass">
                         </td>
                     </tr>
                 </table>
@@ -227,11 +277,17 @@
             
             
         </tr>
+        
+        <!--
+            Footer
+        -->
+        
         <tr style="width:100%">
             <td style="padding: 0 0 0 0;margin: 0 0 0 0;max-width: 100%;border-spacing: 0px;">
-                <img src="images/footer.png" style="width:100%">
+                <img src="https://mandrill-emails.s3.amazonaws.com/melt-holidays/20151021/footer.png" style="width:100%" alt="Happy Melt-O-Ween!">
                 
             </td>
         </tr>
     </table>
-</body></html>
+</body>
+</html>
